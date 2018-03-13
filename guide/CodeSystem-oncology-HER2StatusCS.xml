@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="oncology-HER2StatusCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI HER2StatusCS CodeSystem</b></p>
+<p>HER2 status overall result</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/cs/HER2StatusCS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.HER2StatusCS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI HER2StatusCS CodeSystem"/>
+  <title value="BCI HER2StatusCS CodeSystem"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="HER2 status overall result"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="negative_0+"/>
+    <display value="Negative/Not Amplified (IHC Score 0) - CAP#31015"/>
+    <definition value="Negative/Not Amplified (IHC Score 0) - CAP#31015"/>
+  </concept>
+  <concept>
+    <code value="negative_1+"/>
+    <display value="Negative (IHC Score 1+) - CAP#31016"/>
+    <definition value="Negative (IHC Score 1+) - CAP#31016"/>
+  </concept>
+  <concept>
+    <code value="equivocal_2+"/>
+    <display value="Equivocal (IHC Score 2+) - CAP#31017"/>
+    <definition value="Equivocal (IHC Score 2+) - CAP#31017"/>
+  </concept>
+  <concept>
+    <code value="positive_3+"/>
+    <display value="Positive/Amplified (IHC Score 3+) - CAP#31018"/>
+    <definition value="Positive/Amplified (IHC Score 3+) - CAP#31018"/>
+  </concept>
+</CodeSystem>

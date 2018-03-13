@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "id": "shr-core-BodySiteVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI BodySiteVS ValueSet</b></p>\n<p>Codes that describe normal and pathologic anatomic systems, regions, cavities, and spaces.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "shr.core.BodySiteVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI BodySiteVS ValueSet",
+  "title": "BCI BodySiteVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Codes that describe normal and pathologic anatomic systems, regions, cavities, and spaces.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "123037004"
+          }
+        ]
+      }
+    ]
+  }
+}

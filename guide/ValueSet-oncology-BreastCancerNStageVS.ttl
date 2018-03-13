@@ -1,0 +1,107 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/bci/ValueSet/oncology-BreastCancerNStageVS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "oncology-BreastCancerNStageVS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI BreastCancerNStageVS ValueSet</b></p>\n<p>Regional nodes N category according to AJCC breast cancer staging recommendations. The codes do not include the stage timing prefix, recorded separately in the StageTimingPrefix attribute.</p>\n</div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerNStageVS"];
+  fhir:ValueSet.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/us/bci" ];
+     fhir:Identifier.value [ fhir:value "oncology.BreastCancerNStageVS" ]
+  ];
+  fhir:ValueSet.version [ fhir:value "0.0.1"];
+  fhir:ValueSet.name [ fhir:value "BCI BreastCancerNStageVS ValueSet"];
+  fhir:ValueSet.title [ fhir:value "BCI BreastCancerNStageVS ValueSet"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2018-03-12"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "The MITRE Corporation: Standard Health Record Collaborative"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://standardhealthrecord.org" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Regional nodes N category according to AJCC breast cancer staging recommendations. The codes do not include the stage timing prefix, recorded separately in the StageTimingPrefix attribute."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerNStageCS" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NX" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "The lymph nodes cannot be evaluated (for example, previously removed)" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N0" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "No cancer was found in the lymph nodes." ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N1" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "The cancer has spread to 1 to 3 axillary lymph nodes under the arm, and is at least 2 mm in size." ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N1mi" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Micrometastasis, larger than 0.2 mm but less than 2 mm in size." ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N1a" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cancer has spread to 1 to 3 lymph nodes under the arm with at least one area of cancer spread greater than 2 mm across." ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N1b" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cancer has spread to internal mammary lymph nodes on the same side as the cancer, but this spread could only be found on sentinel lymph node biopsy (it did not cause the lymph nodes to become enlarged)." ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N1c" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Both N1a and N1b apply, i.e., cancer has spread to 1 to 3 lymph nodes under the arm with at least one area of cancer spread greater than 2 mm across, and Cancer has spread to internal mammary lymph nodes on the same side as the cancer without causing lymph node enlargement." ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N2" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cancer has spread to 4 to 9 lymph nodes under the arm, or cancer has enlarged the internal mammary lymph nodes." ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N2a" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cancer has spread to 4 to 9 lymph nodes under the arm, with at least one area of cancer spread larger than 2 mm." ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N2b" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cancer has spread to one or more internal mammary lymph nodes, causing them to become enlarged." ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N3" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cancer has spread to auxiliary lymph nodes, and meets criteria in either N3a, N3b, or N3c." ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N3a" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cancer has spread to 10 or more axillary lymph nodes, with at least one area of cancer spread greater than 2 mm, or cancer has spread to the lymph nodes under the collarbone (infraclavicular nodes), with at least one area of cancer spread greater than 2 mm." ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N3b" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cancer is found in at least one axillary lymph node (with at least one area of cancer spread greater than 2 mm) and has enlarged the internal mammary lymph nodes, or cancer has spread to 4 or more axillary lymph nodes (with at least one area of cancer spread greater than 2 mm), and tiny amounts of cancer are found in internal mammary lymph nodes on sentinel lymph node biopsy." ]
+       ], [
+         fhir:index 13;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N3c" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cancer has spread to the lymph nodes above the collarbone (supraclavicular nodes) with at least one area of cancer spread greater than 2 mm." ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/bci/ValueSet/oncology-BreastCancerNStageVS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://hl7.org/fhir/STU3/us/bci/ValueSet/oncology-BreastCancerNStageVS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,784 @@
+﻿Breast Cancer Interoperability FHIR Profiles : Validation Results
+=========================================
+
+Generated Mon Mar 12 14:18:42 EDT 2018. FHIR version 3.0.1
+
+ Build Errors : 116 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ImplementationGuide\data : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\condition-ConditionCategoryCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\finding-DiagnosticServiceCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\finding-ExceptionValueCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-BrcaReceptorStatusCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-BreastCancerMStageCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-BreastCancerNStageCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-BreastCancerStageCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-BreastCancerTStageCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-DegreeOfLymphaticInvolvementCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-EstrogenAntibodyCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-HER2AntibodyIHCCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-HER2ISHMethodCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-HER2MethodCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-HER2StatusCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-Ki67AntibodyCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-OncotypeDXRiskScoreInterpretationCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-ProgesteroneAntibodyCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-StageTimingPrefixCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-StagingMethodCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-StainingControlCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\oncology-StainingIntensityCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\shr-core-YesNoCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\codesystem\shr-core-YesNoUnknownCS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\condition-Abatement-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\condition-Condition : 4 / 1
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\condition-Onset-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\entity-BodySite : 8 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\entity-BodySite-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\entity-BodySiteMarker-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-ApplicableAgeRange-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-ApplicableSubpopulation-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-BodyStructurePresent : 2 / 2
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-DeltaFlag-extension : 2 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-DiagnosticService-extension : 2 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-EvaluationComponent-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-EvaluationMethod-extension : 2 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-EvaluationResultRecorded : 8 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-EvaluationTopic-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-Evidence-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-ExceptionValue-extension : 2 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-FindingStatus-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-Focus-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-Interpretation-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-LaboratoryTestResultRecorded : 8 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-Members-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-Morphology-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-Precondition-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-PresenceContext-extension : 2 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-ReferenceRange-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-SimplifiedLaboratoryTestResultRecorded : 8 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\finding-Type-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-BRCA1Variant : 13 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-BRCA2Variant : 13 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-BreastCancer : 8 / 1
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-BreastCancerGeneticAnalysisPanel : 9 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-BreastCancerTNMStage : 24 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-EstrogenReceptorStatus : 29 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-GeneticVariant : 15 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-HER2ReceptorStatus : 11 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-HER2ReceptorStatusIHC : 13 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-HER2ReceptorStatusISH : 25 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-HistologicGrade : 19 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-Ki-67LabelingIndex : 9 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-LymphaticInvolvement : 17 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-OncotypeDxRecurrenceScore : 11 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-PercentageRange : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-ProgesteroneReceptorStatus : 29 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-S-PhaseFraction : 9 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-StageTimingPrefix-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-TumorDimensions : 13 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\oncology-TumorMargins : 17 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-base64Binary-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-boolean-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-code-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-date-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-dateTime-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-decimal-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-id-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-instant-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-integer-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-markdown-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-oid-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-positiveInt-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-string-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-time-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-unsignedInt-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-uri-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\primitive-xhtml-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-base-ContextCode-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-base-Topic-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-base-TopicCode-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Age-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-AgeRange-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Attachment-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Category-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-ClockDirection-extension : 2 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-CodeableConcept-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Details-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Distance-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-GeneralizedAge-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-GeneralizedDateTime-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-GeneralizedTemporalContext-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-IntegerQuantity-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-LowerBound-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-NumberOfRepeats-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Quantity-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Range : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Range-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Ratio : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Ratio-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-RecurrenceRange-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-TimePeriod-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-Timing : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\structuredefinition\shr-core-UpperBound-extension : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\condition-ConditionCategoryVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\condition-ConditionVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\condition-DSMVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\condition-ProgressionEvidenceTypeVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\condition-ProgressionVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\finding-DeltaFlagVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\finding-DiagnosticServiceVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\finding-ExceptionValueVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\finding-PresenceContextVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-BrcaReceptorStatusVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-BreastCancerMStageVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-BreastCancerNStageVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-BreastCancerStageVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-BreastCancerTStageVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-BreastCancerTypeVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-DegreeOfLymphaticInvolvementVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-EstrogenAntibodyVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-GeneIdentifierVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-HER2AntibodyIHCVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-HER2ISHMethodVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-HER2MethodVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-HER2StatusVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-Ki67AntibodyVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-LymphSystemSubdivisionVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-NottinghamCombinedGradeVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-NuclearPleomorphismScoreVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-OncotypeDXRiskScoreInterpretationVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-PositiveNegativeVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-ProgesteroneAntibodyVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-ReceptorVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-RefseqVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-StageTimingPrefixVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-StagingMethodVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-StainingControlVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-StainingIntensityVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-TubuleFormationScoreVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\oncology-TumorMarginDescriptionVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\shr-core-BodySiteVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\shr-core-ClockDirectionVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\shr-core-DirectionalityVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\shr-core-LateralityVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\shr-core-PortionTotalityVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\shr-core-TimeUnitOfMeasureVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\shr-core-UnitsOfLengthVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\shr-core-YesNoUnknownVS : 0 / 0
+ C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\valueset\shr-core-YesNoVS : 0 / 0
+</table>
+== n/a ==
+ * error :  ==> Resource id/url mismatch: condition-ConditionCategoryCS/http://hl7.org/fhir/us/bci/condition/cs/ConditionCategoryCS
+ * error :  ==> Resource id/url mismatch: finding-DiagnosticServiceCS/http://hl7.org/fhir/us/bci/finding/cs/DiagnosticServiceCS
+ * error :  ==> Resource id/url mismatch: finding-ExceptionValueCS/http://hl7.org/fhir/us/bci/finding/cs/ExceptionValueCS
+ * error :  ==> Resource id/url mismatch: oncology-BrcaReceptorStatusCS/http://hl7.org/fhir/us/bci/oncology/cs/BrcaReceptorStatusCS
+ * error :  ==> Resource id/url mismatch: oncology-BreastCancerMStageCS/http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerMStageCS
+ * error :  ==> Resource id/url mismatch: oncology-BreastCancerNStageCS/http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerNStageCS
+ * error :  ==> Resource id/url mismatch: oncology-BreastCancerStageCS/http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerStageCS
+ * error :  ==> Resource id/url mismatch: oncology-BreastCancerTStageCS/http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerTStageCS
+ * error :  ==> Resource id/url mismatch: oncology-DegreeOfLymphaticInvolvementCS/http://hl7.org/fhir/us/bci/oncology/cs/DegreeOfLymphaticInvolvementCS
+ * error :  ==> Resource id/url mismatch: oncology-EstrogenAntibodyCS/http://hl7.org/fhir/us/bci/oncology/cs/EstrogenAntibodyCS
+ * error :  ==> Resource id/url mismatch: oncology-HER2AntibodyIHCCS/http://hl7.org/fhir/us/bci/oncology/cs/HER2AntibodyIHCCS
+ * error :  ==> Resource id/url mismatch: oncology-HER2ISHMethodCS/http://hl7.org/fhir/us/bci/oncology/cs/HER2ISHMethodCS
+ * error :  ==> Resource id/url mismatch: oncology-HER2MethodCS/http://hl7.org/fhir/us/bci/oncology/cs/HER2MethodCS
+ * error :  ==> Resource id/url mismatch: oncology-HER2StatusCS/http://hl7.org/fhir/us/bci/oncology/cs/HER2StatusCS
+ * error :  ==> Resource id/url mismatch: oncology-Ki67AntibodyCS/http://hl7.org/fhir/us/bci/oncology/cs/Ki67AntibodyCS
+ * error :  ==> Resource id/url mismatch: oncology-OncotypeDXRiskScoreInterpretationCS/http://hl7.org/fhir/us/bci/oncology/cs/OncotypeDXRiskScoreInterpretationCS
+ * error :  ==> Resource id/url mismatch: oncology-ProgesteroneAntibodyCS/http://hl7.org/fhir/us/bci/oncology/cs/ProgesteroneAntibodyCS
+ * error :  ==> Resource id/url mismatch: oncology-StageTimingPrefixCS/http://hl7.org/fhir/us/bci/oncology/cs/StageTimingPrefixCS
+ * error :  ==> Resource id/url mismatch: oncology-StagingMethodCS/http://hl7.org/fhir/us/bci/oncology/cs/StagingMethodCS
+ * error :  ==> Resource id/url mismatch: oncology-StainingControlCS/http://hl7.org/fhir/us/bci/oncology/cs/StainingControlCS
+ * error :  ==> Resource id/url mismatch: oncology-StainingIntensityCS/http://hl7.org/fhir/us/bci/oncology/cs/StainingIntensityCS
+ * error :  ==> Resource id/url mismatch: shr-core-YesNoCS/http://hl7.org/fhir/us/bci/shr/core/cs/YesNoCS
+ * error :  ==> Resource id/url mismatch: shr-core-YesNoUnknownCS/http://hl7.org/fhir/us/bci/shr/core/cs/YesNoUnknownCS
+ * error :  ==> Resource id/url mismatch: condition-ConditionCategoryVS/http://hl7.org/fhir/us/bci/condition/vs/ConditionCategoryVS
+ * error :  ==> Resource id/url mismatch: condition-ConditionVS/http://hl7.org/fhir/us/bci/condition/vs/ConditionVS
+ * error :  ==> Resource id/url mismatch: condition-DSMVS/http://hl7.org/fhir/us/bci/condition/vs/DSMVS
+ * error :  ==> Resource id/url mismatch: condition-ProgressionEvidenceTypeVS/http://hl7.org/fhir/us/bci/condition/vs/ProgressionEvidenceTypeVS
+ * error :  ==> Resource id/url mismatch: condition-ProgressionVS/http://hl7.org/fhir/us/bci/condition/vs/ProgressionVS
+ * error :  ==> Resource id/url mismatch: finding-DeltaFlagVS/http://hl7.org/fhir/us/bci/finding/vs/DeltaFlagVS
+ * error :  ==> Resource id/url mismatch: finding-DiagnosticServiceVS/http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS
+ * error :  ==> Resource id/url mismatch: finding-ExceptionValueVS/http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS
+ * error :  ==> Resource id/url mismatch: finding-PresenceContextVS/http://hl7.org/fhir/us/bci/finding/vs/PresenceContextVS
+ * error :  ==> Resource id/url mismatch: oncology-BrcaReceptorStatusVS/http://hl7.org/fhir/us/bci/oncology/vs/BrcaReceptorStatusVS
+ * error :  ==> Resource id/url mismatch: oncology-BreastCancerMStageVS/http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerMStageVS
+ * error :  ==> Resource id/url mismatch: oncology-BreastCancerNStageVS/http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerNStageVS
+ * error :  ==> Resource id/url mismatch: oncology-BreastCancerStageVS/http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerStageVS
+ * error :  ==> Resource id/url mismatch: oncology-BreastCancerTStageVS/http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTStageVS
+ * error :  ==> Resource id/url mismatch: oncology-BreastCancerTypeVS/http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTypeVS
+ * error :  ==> Resource id/url mismatch: oncology-DegreeOfLymphaticInvolvementVS/http://hl7.org/fhir/us/bci/oncology/vs/DegreeOfLymphaticInvolvementVS
+ * error :  ==> Resource id/url mismatch: oncology-EstrogenAntibodyVS/http://hl7.org/fhir/us/bci/oncology/vs/EstrogenAntibodyVS
+ * error :  ==> Resource id/url mismatch: oncology-GeneIdentifierVS/http://hl7.org/fhir/us/bci/oncology/vs/GeneIdentifierVS
+ * error :  ==> Resource id/url mismatch: oncology-HER2AntibodyIHCVS/http://hl7.org/fhir/us/bci/oncology/vs/HER2AntibodyIHCVS
+ * error :  ==> Resource id/url mismatch: oncology-HER2ISHMethodVS/http://hl7.org/fhir/us/bci/oncology/vs/HER2ISHMethodVS
+ * error :  ==> Resource id/url mismatch: oncology-HER2MethodVS/http://hl7.org/fhir/us/bci/oncology/vs/HER2MethodVS
+ * error :  ==> Resource id/url mismatch: oncology-HER2StatusVS/http://hl7.org/fhir/us/bci/oncology/vs/HER2StatusVS
+ * error :  ==> Resource id/url mismatch: oncology-Ki67AntibodyVS/http://hl7.org/fhir/us/bci/oncology/vs/Ki67AntibodyVS
+ * error :  ==> Resource id/url mismatch: oncology-LymphSystemSubdivisionVS/http://hl7.org/fhir/us/bci/oncology/vs/LymphSystemSubdivisionVS
+ * error :  ==> Resource id/url mismatch: oncology-NottinghamCombinedGradeVS/http://hl7.org/fhir/us/bci/oncology/vs/NottinghamCombinedGradeVS
+ * error :  ==> Resource id/url mismatch: oncology-NuclearPleomorphismScoreVS/http://hl7.org/fhir/us/bci/oncology/vs/NuclearPleomorphismScoreVS
+ * error :  ==> Resource id/url mismatch: oncology-OncotypeDXRiskScoreInterpretationVS/http://hl7.org/fhir/us/bci/oncology/vs/OncotypeDXRiskScoreInterpretationVS
+ * error :  ==> Resource id/url mismatch: oncology-PositiveNegativeVS/http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS
+ * error :  ==> Resource id/url mismatch: oncology-ProgesteroneAntibodyVS/http://hl7.org/fhir/us/bci/oncology/vs/ProgesteroneAntibodyVS
+ * error :  ==> Resource id/url mismatch: oncology-ReceptorVS/http://hl7.org/fhir/us/bci/oncology/vs/ReceptorVS
+ * error :  ==> Resource id/url mismatch: oncology-RefseqVS/http://hl7.org/fhir/us/bci/oncology/vs/RefseqVS
+ * error :  ==> Resource id/url mismatch: oncology-StageTimingPrefixVS/http://hl7.org/fhir/us/bci/oncology/vs/StageTimingPrefixVS
+ * error :  ==> Resource id/url mismatch: oncology-StagingMethodVS/http://hl7.org/fhir/us/bci/oncology/vs/StagingMethodVS
+ * error :  ==> Resource id/url mismatch: oncology-StainingControlVS/http://hl7.org/fhir/us/bci/oncology/vs/StainingControlVS
+ * error :  ==> Resource id/url mismatch: oncology-StainingIntensityVS/http://hl7.org/fhir/us/bci/oncology/vs/StainingIntensityVS
+ * error :  ==> Resource id/url mismatch: oncology-TubuleFormationScoreVS/http://hl7.org/fhir/us/bci/oncology/vs/TubuleFormationScoreVS
+ * error :  ==> Resource id/url mismatch: oncology-TumorMarginDescriptionVS/http://hl7.org/fhir/us/bci/oncology/vs/TumorMarginDescriptionVS
+ * error :  ==> Resource id/url mismatch: shr-core-BodySiteVS/http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS
+ * error :  ==> Resource id/url mismatch: shr-core-ClockDirectionVS/http://hl7.org/fhir/us/bci/shr/core/vs/ClockDirectionVS
+ * error :  ==> Resource id/url mismatch: shr-core-DirectionalityVS/http://hl7.org/fhir/us/bci/shr/core/vs/DirectionalityVS
+ * error :  ==> Resource id/url mismatch: shr-core-LateralityVS/http://hl7.org/fhir/us/bci/shr/core/vs/LateralityVS
+ * error :  ==> Resource id/url mismatch: shr-core-PortionTotalityVS/http://hl7.org/fhir/us/bci/shr/core/vs/PortionTotalityVS
+ * error :  ==> Resource id/url mismatch: shr-core-TimeUnitOfMeasureVS/http://hl7.org/fhir/us/bci/shr/core/vs/TimeUnitOfMeasureVS
+ * error :  ==> Resource id/url mismatch: shr-core-UnitsOfLengthVS/http://hl7.org/fhir/us/bci/shr/core/vs/UnitsOfLengthVS
+ * error :  ==> Resource id/url mismatch: shr-core-YesNoUnknownVS/http://hl7.org/fhir/us/bci/shr/core/vs/YesNoUnknownVS
+ * error :  ==> Resource id/url mismatch: shr-core-YesNoVS/http://hl7.org/fhir/us/bci/shr/core/vs/YesNoVS
+ * error :  ==> The reference http://loinc.org could not be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-TumorDimensions.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 712, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-ProgesteroneReceptorStatus.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 1158, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-TumorMargins.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 742, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-BreastCancerGeneticAnalysisPanel.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 610, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-HistologicGrade.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 708, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-finding-EvaluationMethod-extension.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 238, column 148 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-finding-EvaluationResultRecorded.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 549, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-EstrogenReceptorStatus.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 1158, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-HER2ReceptorStatusIHC.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 742, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-finding-LaboratoryTestResultRecorded.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 555, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-S-PhaseFraction.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 602, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-finding-SimplifiedLaboratoryTestResultRecorded.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 534, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-BRCA2Variant.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 576, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 130, column 12 ==> The link 'http://hl7.org/fhir/STU3/Condition.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 136, column 12 ==> The link 'http://hl7.org/fhir/STU3/BodySite.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 142, column 12 ==> The link 'http://hl7.org/fhir/STU3/Basic.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 148, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 154, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 160, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 166, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 172, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 178, column 12 ==> The link 'http://hl7.org/fhir/STU3/Condition.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 184, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 190, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 196, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 202, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 208, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 214, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 220, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 226, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 232, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 238, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 244, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 250, column 12 ==> The link 'http://hl7.org/fhir/STU3/Range.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 256, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 262, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 268, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 274, column 12 ==> The link 'http://hl7.org/fhir/STU3/Observation.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 280, column 12 ==> The link 'http://hl7.org/fhir/STU3/Range.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 286, column 12 ==> The link 'http://hl7.org/fhir/STU3/Ratio.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\profiles.html#/html/head/body/div/div/div/div/div/table/tbody/tr/td/a at Line 292, column 12 ==> The link 'http://hl7.org/fhir/STU3/Timing.html' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-LymphaticInvolvement.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 677, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-BRCA1Variant.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 576, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-OncotypeDxRecurrenceScore.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 570, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-GeneticVariant.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 547, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+ * error : C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\output\guide\StructureDefinition-oncology-Ki-67LabelingIndex.html#/html/head/body/div/div/div/div/div/table/tr/td/a at Line 638, column 136 ==> The link 'http://hl7.org/fhir/STU3/http://loinc.org' cannot be resolved
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ImplementationGuide\data.xml ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\condition-ConditionCategoryCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\finding-DiagnosticServiceCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\finding-ExceptionValueCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-BrcaReceptorStatusCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-BreastCancerMStageCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-BreastCancerNStageCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-BreastCancerStageCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-BreastCancerTStageCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-DegreeOfLymphaticInvolvementCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-EstrogenAntibodyCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-HER2AntibodyIHCCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-HER2ISHMethodCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-HER2MethodCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-HER2StatusCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-Ki67AntibodyCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-OncotypeDXRiskScoreInterpretationCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-ProgesteroneAntibodyCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-StageTimingPrefixCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-StagingMethodCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-StainingControlCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\oncology-StainingIntensityCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\shr-core-YesNoCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\CodeSystem\shr-core-YesNoUnknownCS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\condition-Abatement-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\condition-Condition.json ==
+ * warning : StructureDefinition/condition-Condition: StructureDefinition.jurisdiction ==> Display Name for US must be 'United States of America'
+ * error : StructureDefinition/condition-Condition: StructureDefinition.snapshot.element[16].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/condition/vs/ConditionCategoryVS'
+ * error : StructureDefinition/condition-Condition: StructureDefinition.snapshot.element[19].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/condition-Condition: StructureDefinition.differential.element[6].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/condition/vs/ConditionCategoryVS'
+ * error : StructureDefinition/condition-Condition: StructureDefinition.differential.element[9].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\condition-Onset-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\entity-BodySite.json ==
+ * error : StructureDefinition/entity-BodySite: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/entity-BodySite: StructureDefinition.snapshot.element[17].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/LateralityVS'
+ * error : StructureDefinition/entity-BodySite: StructureDefinition.snapshot.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/DirectionalityVS'
+ * error : StructureDefinition/entity-BodySite: StructureDefinition.snapshot.element[19].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/PortionTotalityVS'
+ * error : StructureDefinition/entity-BodySite: StructureDefinition.differential.element[5].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/entity-BodySite: StructureDefinition.differential.element[7].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/LateralityVS'
+ * error : StructureDefinition/entity-BodySite: StructureDefinition.differential.element[8].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/DirectionalityVS'
+ * error : StructureDefinition/entity-BodySite: StructureDefinition.differential.element[9].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/PortionTotalityVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\entity-BodySite-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\entity-BodySiteMarker-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-ApplicableAgeRange-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-ApplicableSubpopulation-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-BodyStructurePresent.json ==
+ * error : StructureDefinition/finding-BodyStructurePresent: StructureDefinition.snapshot.element[13].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * warning : StructureDefinition/finding-BodyStructurePresent: StructureDefinition.snapshot.element[52].patternCodeableConcept.coding ==> Unknown Code System http://hl7.org/fhir/us/bci/basic-resource-type
+ * error : StructureDefinition/finding-BodyStructurePresent: StructureDefinition.differential.element[3].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * warning : StructureDefinition/finding-BodyStructurePresent: StructureDefinition.differential.element[26].patternCodeableConcept.coding ==> Unknown Code System http://hl7.org/fhir/us/bci/basic-resource-type
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-DeltaFlag-extension.json ==
+ * error : StructureDefinition/finding-DeltaFlag-extension: StructureDefinition.snapshot.element[5].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DeltaFlagVS'
+ * error : StructureDefinition/finding-DeltaFlag-extension: StructureDefinition.differential.element[4].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DeltaFlagVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-DiagnosticService-extension.json ==
+ * error : StructureDefinition/finding-DiagnosticService-extension: StructureDefinition.snapshot.element[5].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/finding-DiagnosticService-extension: StructureDefinition.differential.element[4].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-EvaluationComponent-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-EvaluationMethod-extension.json ==
+ * error : StructureDefinition/finding-EvaluationMethod-extension: StructureDefinition.snapshot.element[5].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/finding-EvaluationMethod-extension: StructureDefinition.differential.element[4].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-EvaluationResultRecorded.json ==
+ * error : StructureDefinition/finding-EvaluationResultRecorded: StructureDefinition.snapshot.element[26].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-EvaluationResultRecorded: StructureDefinition.snapshot.element[29].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/finding-EvaluationResultRecorded: StructureDefinition.snapshot.element[30].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/finding-EvaluationResultRecorded: StructureDefinition.snapshot.element[55].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-EvaluationResultRecorded: StructureDefinition.differential.element[9].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-EvaluationResultRecorded: StructureDefinition.differential.element[11].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/finding-EvaluationResultRecorded: StructureDefinition.differential.element[12].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/finding-EvaluationResultRecorded: StructureDefinition.differential.element[23].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-EvaluationTopic-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-Evidence-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-ExceptionValue-extension.json ==
+ * error : StructureDefinition/finding-ExceptionValue-extension: StructureDefinition.snapshot.element[5].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-ExceptionValue-extension: StructureDefinition.differential.element[4].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-FindingStatus-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-Focus-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-Interpretation-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-LaboratoryTestResultRecorded.json ==
+ * error : StructureDefinition/finding-LaboratoryTestResultRecorded: StructureDefinition.snapshot.element[27].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-LaboratoryTestResultRecorded: StructureDefinition.snapshot.element[30].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/finding-LaboratoryTestResultRecorded: StructureDefinition.snapshot.element[31].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/finding-LaboratoryTestResultRecorded: StructureDefinition.snapshot.element[56].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-LaboratoryTestResultRecorded: StructureDefinition.differential.element[10].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-LaboratoryTestResultRecorded: StructureDefinition.differential.element[12].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/finding-LaboratoryTestResultRecorded: StructureDefinition.differential.element[13].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/finding-LaboratoryTestResultRecorded: StructureDefinition.differential.element[24].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-Members-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-Morphology-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-Precondition-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-PresenceContext-extension.json ==
+ * error : StructureDefinition/finding-PresenceContext-extension: StructureDefinition.snapshot.element[8].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/PresenceContextVS'
+ * error : StructureDefinition/finding-PresenceContext-extension: StructureDefinition.differential.element[3].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/PresenceContextVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-ReferenceRange-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-SimplifiedLaboratoryTestResultRecorded.json ==
+ * error : StructureDefinition/finding-SimplifiedLaboratoryTestResultRecorded: StructureDefinition.snapshot.element[36].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-SimplifiedLaboratoryTestResultRecorded: StructureDefinition.snapshot.element[39].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/finding-SimplifiedLaboratoryTestResultRecorded: StructureDefinition.snapshot.element[40].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/finding-SimplifiedLaboratoryTestResultRecorded: StructureDefinition.snapshot.element[65].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-SimplifiedLaboratoryTestResultRecorded: StructureDefinition.differential.element[11].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/finding-SimplifiedLaboratoryTestResultRecorded: StructureDefinition.differential.element[13].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/finding-SimplifiedLaboratoryTestResultRecorded: StructureDefinition.differential.element[14].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/finding-SimplifiedLaboratoryTestResultRecorded: StructureDefinition.differential.element[25].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\finding-Type-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-BRCA1Variant.json ==
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.snapshot.element[37].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.snapshot.element[61].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.snapshot.element[62].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.snapshot.element[65].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.snapshot.element[66].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.snapshot.element[91].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/RefseqVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.snapshot.element[92].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.differential.element[17].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.differential.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.differential.element[32].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/RefseqVS'
+ * error : StructureDefinition/oncology-BRCA1Variant: StructureDefinition.differential.element[33].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-BRCA2Variant.json ==
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.snapshot.element[37].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.snapshot.element[61].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.snapshot.element[62].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.snapshot.element[65].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.snapshot.element[66].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.snapshot.element[91].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/RefseqVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.snapshot.element[92].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.differential.element[17].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.differential.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.differential.element[32].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/RefseqVS'
+ * error : StructureDefinition/oncology-BRCA2Variant: StructureDefinition.differential.element[33].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-BreastCancer.json ==
+ * warning : StructureDefinition/oncology-BreastCancer: StructureDefinition.jurisdiction ==> Display Name for US must be 'United States of America'
+ * error : StructureDefinition/oncology-BreastCancer: StructureDefinition.snapshot.element[16].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/condition/vs/ConditionCategoryVS'
+ * error : StructureDefinition/oncology-BreastCancer: StructureDefinition.snapshot.element[31].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTypeVS'
+ * error : StructureDefinition/oncology-BreastCancer: StructureDefinition.snapshot.element[32].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BreastCancer: StructureDefinition.snapshot.element[43].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerStageVS'
+ * error : StructureDefinition/oncology-BreastCancer: StructureDefinition.differential.element[6].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/condition/vs/ConditionCategoryVS'
+ * error : StructureDefinition/oncology-BreastCancer: StructureDefinition.differential.element[13].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTypeVS'
+ * error : StructureDefinition/oncology-BreastCancer: StructureDefinition.differential.element[14].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BreastCancer: StructureDefinition.differential.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerStageVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-BreastCancerGeneticAnalysisPanel.json ==
+ * error : StructureDefinition/oncology-BreastCancerGeneticAnalysisPanel: StructureDefinition.snapshot.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-BreastCancerGeneticAnalysisPanel: StructureDefinition.snapshot.element[43].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerGeneticAnalysisPanel: StructureDefinition.snapshot.element[46].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BreastCancerGeneticAnalysisPanel: StructureDefinition.snapshot.element[47].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-BreastCancerGeneticAnalysisPanel: StructureDefinition.snapshot.element[85].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerGeneticAnalysisPanel: StructureDefinition.differential.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerGeneticAnalysisPanel: StructureDefinition.differential.element[17].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BreastCancerGeneticAnalysisPanel: StructureDefinition.differential.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-BreastCancerGeneticAnalysisPanel: StructureDefinition.differential.element[36].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-BreastCancerTNMStage.json ==
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTypeVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[33].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StageTimingPrefixVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[57].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerStageVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[58].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[61].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[62].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StagingMethodVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[99].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTStageVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[100].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[129].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerNStageVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[130].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[159].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerMStageVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.snapshot.element[160].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[6].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTypeVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[10].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StageTimingPrefixVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[17].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerStageVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StagingMethodVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[37].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTStageVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[38].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[46].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerNStageVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[47].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[55].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerMStageVS'
+ * error : StructureDefinition/oncology-BreastCancerTNMStage: StructureDefinition.differential.element[56].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-EstrogenReceptorStatus.json ==
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[63].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[64].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[67].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[68].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[94].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[123].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StainingIntensityVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[124].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[153].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StainingControlVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[154].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[183].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[220].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[257].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[294].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.snapshot.element[324].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[23].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[24].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[36].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[44].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StainingIntensityVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[45].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[53].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StainingControlVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[54].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[62].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[73].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[84].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[95].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-EstrogenReceptorStatus: StructureDefinition.differential.element[104].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-GeneticVariant.json ==
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.snapshot.element[17].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/GeneIdentifierVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.snapshot.element[25].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.snapshot.element[49].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.snapshot.element[50].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.snapshot.element[53].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.snapshot.element[54].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.snapshot.element[79].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/RefseqVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.snapshot.element[80].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.differential.element[5].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/GeneIdentifierVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.differential.element[13].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.differential.element[14].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.differential.element[16].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.differential.element[17].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.differential.element[28].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/RefseqVS'
+ * error : StructureDefinition/oncology-GeneticVariant: StructureDefinition.differential.element[29].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-HER2ReceptorStatus.json ==
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.snapshot.element[63].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2StatusVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.snapshot.element[64].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.snapshot.element[67].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.snapshot.element[68].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2MethodVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.snapshot.element[93].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2StatusVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.differential.element[23].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.differential.element[24].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2MethodVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatus: StructureDefinition.differential.element[35].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-HER2ReceptorStatusIHC.json ==
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.snapshot.element[63].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2StatusVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.snapshot.element[64].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.snapshot.element[67].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.snapshot.element[68].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.snapshot.element[125].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.snapshot.element[155].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2StatusVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.differential.element[23].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.differential.element[24].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.differential.element[47].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusIHC: StructureDefinition.differential.element[56].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-HER2ReceptorStatusISH.json ==
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[63].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2StatusVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[64].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[67].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[68].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2ISHMethodVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[105].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[134].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[163].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[192].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/YesNoVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[193].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[222].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/YesNoVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[223].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.snapshot.element[260].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2StatusVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[23].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[24].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/HER2ISHMethodVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[40].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[48].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[56].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[64].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/YesNoVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[65].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[73].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/YesNoVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[74].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HER2ReceptorStatusISH: StructureDefinition.differential.element[85].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-HistologicGrade.json ==
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[51].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/NottinghamCombinedGradeVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[52].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[55].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[56].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[93].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/TubuleFormationScoreVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[94].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[111].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/NuclearPleomorphismScoreVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[112].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.snapshot.element[142].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.differential.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/NottinghamCombinedGradeVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.differential.element[16].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.differential.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.differential.element[19].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.differential.element[35].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/TubuleFormationScoreVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.differential.element[36].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.differential.element[39].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/NuclearPleomorphismScoreVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.differential.element[40].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-HistologicGrade: StructureDefinition.differential.element[49].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-Ki-67LabelingIndex.json ==
+ * error : StructureDefinition/oncology-Ki-67LabelingIndex: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-Ki-67LabelingIndex: StructureDefinition.snapshot.element[71].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-Ki-67LabelingIndex: StructureDefinition.snapshot.element[74].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-Ki-67LabelingIndex: StructureDefinition.snapshot.element[75].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-Ki-67LabelingIndex: StructureDefinition.snapshot.element[113].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-Ki-67LabelingIndex: StructureDefinition.differential.element[23].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-Ki-67LabelingIndex: StructureDefinition.differential.element[25].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-Ki-67LabelingIndex: StructureDefinition.differential.element[26].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-Ki-67LabelingIndex: StructureDefinition.differential.element[43].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-LymphaticInvolvement.json ==
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.snapshot.element[14].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.snapshot.element[38].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.snapshot.element[39].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.snapshot.element[42].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/LymphSystemSubdivisionVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.snapshot.element[43].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.snapshot.element[88].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.snapshot.element[113].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.snapshot.element[130].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/DegreeOfLymphaticInvolvementVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.snapshot.element[131].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.differential.element[10].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.differential.element[11].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.differential.element[13].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/LymphSystemSubdivisionVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.differential.element[14].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.differential.element[33].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.differential.element[39].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.differential.element[42].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/DegreeOfLymphaticInvolvementVS'
+ * error : StructureDefinition/oncology-LymphaticInvolvement: StructureDefinition.differential.element[43].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-OncotypeDxRecurrenceScore.json ==
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.snapshot.element[59].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.snapshot.element[60].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/OncotypeDXRiskScoreInterpretationVS'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.snapshot.element[62].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.snapshot.element[63].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.snapshot.element[88].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.differential.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.differential.element[19].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/OncotypeDXRiskScoreInterpretationVS'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-OncotypeDxRecurrenceScore: StructureDefinition.differential.element[32].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-PercentageRange.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-ProgesteroneReceptorStatus.json ==
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[63].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[64].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[67].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[68].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[94].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[123].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StainingIntensityVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[124].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[153].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StainingControlVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[154].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[183].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[220].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[257].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[294].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.snapshot.element[324].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[23].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[24].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[36].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[44].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StainingIntensityVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[45].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[53].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/StainingControlVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[54].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[62].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[73].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[84].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[95].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-ProgesteroneReceptorStatus: StructureDefinition.differential.element[104].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-S-PhaseFraction.json ==
+ * error : StructureDefinition/oncology-S-PhaseFraction: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-S-PhaseFraction: StructureDefinition.snapshot.element[71].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-S-PhaseFraction: StructureDefinition.snapshot.element[74].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-S-PhaseFraction: StructureDefinition.snapshot.element[75].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-S-PhaseFraction: StructureDefinition.snapshot.element[100].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-S-PhaseFraction: StructureDefinition.differential.element[23].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-S-PhaseFraction: StructureDefinition.differential.element[25].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-S-PhaseFraction: StructureDefinition.differential.element[26].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-S-PhaseFraction: StructureDefinition.differential.element[37].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-StageTimingPrefix-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-TumorDimensions.json ==
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.snapshot.element[52].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.snapshot.element[55].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.snapshot.element[56].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.snapshot.element[89].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.snapshot.element[114].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.snapshot.element[139].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.differential.element[16].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.differential.element[18].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.differential.element[19].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.differential.element[33].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.differential.element[39].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorDimensions: StructureDefinition.differential.element[45].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\oncology-TumorMargins.json ==
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.snapshot.element[15].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/DiagnosticServiceVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.snapshot.element[63].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.snapshot.element[64].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.snapshot.element[67].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.snapshot.element[68].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.snapshot.element[93].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/TumorMarginDescriptionVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.snapshot.element[94].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.snapshot.element[131].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.snapshot.element[156].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.differential.element[20].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/PositiveNegativeVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.differential.element[21].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.differential.element[23].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/BodySiteVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.differential.element[24].binding.valueSetReference ==> Unable to resolve resource 'http://loinc.org'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.differential.element[35].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/oncology/vs/TumorMarginDescriptionVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.differential.element[36].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.differential.element[47].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+ * error : StructureDefinition/oncology-TumorMargins: StructureDefinition.differential.element[53].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/finding/vs/ExceptionValueVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-base64Binary-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-boolean-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-code-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-date-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-dateTime-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-decimal-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-id-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-instant-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-integer-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-markdown-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-oid-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-positiveInt-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-string-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-time-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-unsignedInt-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-uri-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\primitive-xhtml-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-base-ContextCode-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-base-Topic-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-base-TopicCode-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Age-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-AgeRange-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Attachment-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Category-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-ClockDirection-extension.json ==
+ * error : StructureDefinition/shr-core-ClockDirection-extension: StructureDefinition.snapshot.element[8].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/ClockDirectionVS'
+ * error : StructureDefinition/shr-core-ClockDirection-extension: StructureDefinition.differential.element[3].binding.valueSetReference ==> Unable to resolve resource 'http://hl7.org/fhir/us/bci/shr/core/vs/ClockDirectionVS'
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-CodeableConcept-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Details-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Distance-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-GeneralizedAge-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-GeneralizedDateTime-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-GeneralizedTemporalContext-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-IntegerQuantity-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-LowerBound-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-NumberOfRepeats-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Quantity-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Range.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Range-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Ratio.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Ratio-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-RecurrenceRange-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-TimePeriod-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-Timing.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\StructureDefinition\shr-core-UpperBound-extension.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\condition-ConditionCategoryVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\condition-ConditionVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\condition-DSMVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\condition-ProgressionEvidenceTypeVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\condition-ProgressionVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\finding-DeltaFlagVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\finding-DiagnosticServiceVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\finding-ExceptionValueVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\finding-PresenceContextVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-BrcaReceptorStatusVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-BreastCancerMStageVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-BreastCancerNStageVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-BreastCancerStageVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-BreastCancerTStageVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-BreastCancerTypeVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-DegreeOfLymphaticInvolvementVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-EstrogenAntibodyVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-GeneIdentifierVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-HER2AntibodyIHCVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-HER2ISHMethodVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-HER2MethodVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-HER2StatusVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-Ki67AntibodyVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-LymphSystemSubdivisionVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-NottinghamCombinedGradeVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-NuclearPleomorphismScoreVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-OncotypeDXRiskScoreInterpretationVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-PositiveNegativeVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-ProgesteroneAntibodyVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-ReceptorVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-RefseqVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-StageTimingPrefixVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-StagingMethodVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-StainingControlVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-StainingIntensityVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-TubuleFormationScoreVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\oncology-TumorMarginDescriptionVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\shr-core-BodySiteVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\shr-core-ClockDirectionVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\shr-core-DirectionalityVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\shr-core-LateralityVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\shr-core-PortionTotalityVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\shr-core-TimeUnitOfMeasureVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\shr-core-UnitsOfLengthVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\shr-core-YesNoUnknownVS.json ==
+== C:\Users\mkramer\Documents\GitHub\shr-cli-5.6.0\out\fhir\guide\resources\ValueSet\shr-core-YesNoVS.json ==

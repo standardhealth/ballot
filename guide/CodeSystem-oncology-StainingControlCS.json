@@ -1,0 +1,50 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-StainingControlCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI StainingControlCS CodeSystem</b></p>\n<p>Staining of control cells, required if staining is negative.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/cs/StainingControlCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/bci",
+    "value": "oncology.StainingControlCS"
+  },
+  "version": "0.0.1",
+  "name": "BCI StainingControlCS CodeSystem",
+  "title": "BCI StainingControlCS CodeSystem",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Staining of control cells, required if staining is negative.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "staining",
+      "display": "Internal control cells present and stain as expected - CAP#25896",
+      "definition": "Internal control cells present and stain as expected - CAP#25896"
+    },
+    {
+      "code": "nonstaining",
+      "display": "Internal control cells present; no immunoreactivity of either tumor cells or internal controls - CAP#32089",
+      "definition": "Internal control cells present; no immunoreactivity of either tumor cells or internal controls - CAP#32089"
+    },
+    {
+      "code": "absent",
+      "display": "Internal control cells absent. - CAP#25898",
+      "definition": "Internal control cells absent. - CAP#25898"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-NottinghamCombinedGradeVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI NottinghamCombinedGradeVS ValueSet</b></p>\n<p/>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/vs/NottinghamCombinedGradeVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "oncology.NottinghamCombinedGradeVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI NottinghamCombinedGradeVS ValueSet",
+  "title": "BCI NottinghamCombinedGradeVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "369790002",
+            "display": "Low grade or well differentiated"
+          },
+          {
+            "code": "369791003",
+            "display": "Intermediate/moderate grade or moderately differentiated"
+          },
+          {
+            "code": "369792005",
+            "display": "High grade or pooly differentiated"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="condition-DSMVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI DSMVS ValueSet</b></p>
+<p/>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/condition/vs/DSMVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="condition.DSMVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI DSMVS ValueSet"/>
+  <title value="BCI DSMVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://www.dsm5.org/"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,55 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-HER2StatusCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI HER2StatusCS CodeSystem</b></p>\n<p>HER2 status overall result</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/cs/HER2StatusCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/bci",
+    "value": "oncology.HER2StatusCS"
+  },
+  "version": "0.0.1",
+  "name": "BCI HER2StatusCS CodeSystem",
+  "title": "BCI HER2StatusCS CodeSystem",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "HER2 status overall result",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "negative_0+",
+      "display": "Negative/Not Amplified (IHC Score 0) - CAP#31015",
+      "definition": "Negative/Not Amplified (IHC Score 0) - CAP#31015"
+    },
+    {
+      "code": "negative_1+",
+      "display": "Negative (IHC Score 1+) - CAP#31016",
+      "definition": "Negative (IHC Score 1+) - CAP#31016"
+    },
+    {
+      "code": "equivocal_2+",
+      "display": "Equivocal (IHC Score 2+) - CAP#31017",
+      "definition": "Equivocal (IHC Score 2+) - CAP#31017"
+    },
+    {
+      "code": "positive_3+",
+      "display": "Positive/Amplified (IHC Score 3+) - CAP#31018",
+      "definition": "Positive/Amplified (IHC Score 3+) - CAP#31018"
+    }
+  ]
+}

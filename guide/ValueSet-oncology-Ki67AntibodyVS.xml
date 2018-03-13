@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-Ki67AntibodyVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI Ki67AntibodyVS ValueSet</b></p>
+<p>Antibodies relevant to Ki-67 Text.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/Ki67AntibodyVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.Ki67AntibodyVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI Ki67AntibodyVS ValueSet"/>
+  <title value="BCI Ki67AntibodyVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="Antibodies relevant to Ki-67 Text."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/bci/oncology/cs/Ki67AntibodyCS"/>
+      <concept>
+        <code value="MIB1"/>
+        <display value="MIB1 - CAP#31125"/>
+      </concept>
+      <concept>
+        <code value="SP6"/>
+        <display value="SP6 - CAP#31126"/>
+      </concept>
+      <concept>
+        <code value="MM1"/>
+        <display value="MM1 - CAP#32169"/>
+      </concept>
+      <concept>
+        <code value="30-9"/>
+        <display value="30-9 - CAP#32160"/>
+      </concept>
+      <concept>
+        <code value="IR/IS62"/>
+        <display value="IR / IS626 - CAP#32168"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

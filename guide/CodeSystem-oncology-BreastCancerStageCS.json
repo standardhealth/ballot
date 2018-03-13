@@ -1,0 +1,80 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-BreastCancerStageCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI BreastCancerStageCS CodeSystem</b></p>\n<p>The AJCC stage group.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerStageCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/bci",
+    "value": "oncology.BreastCancerStageCS"
+  },
+  "version": "0.0.1",
+  "name": "BCI BreastCancerStageCS CodeSystem",
+  "title": "BCI BreastCancerStageCS CodeSystem",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The AJCC stage group.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 9,
+  "concept": [
+    {
+      "code": "0",
+      "display": "AJCC Stage 0",
+      "definition": "AJCC Stage 0"
+    },
+    {
+      "code": "IA",
+      "display": "AJCC Stage IA",
+      "definition": "AJCC Stage IA"
+    },
+    {
+      "code": "IB",
+      "display": "AJCC Stage IB",
+      "definition": "AJCC Stage IB"
+    },
+    {
+      "code": "IIA",
+      "display": "AJCC Stage IIA",
+      "definition": "AJCC Stage IIA"
+    },
+    {
+      "code": "IIB",
+      "display": "AJCC Stage IIB",
+      "definition": "AJCC Stage IIB"
+    },
+    {
+      "code": "IIIA",
+      "display": "AJCC Stage IIIA",
+      "definition": "AJCC Stage IIIA"
+    },
+    {
+      "code": "IIIB",
+      "display": "AJCC Stage IIIB",
+      "definition": "AJCC Stage IIIB"
+    },
+    {
+      "code": "IIIC",
+      "display": "AJCC Stage IIIC",
+      "definition": "AJCC Stage IIIC"
+    },
+    {
+      "code": "IV",
+      "display": "AJCC Stage IV",
+      "definition": "AJCC Stage IV"
+    }
+  ]
+}

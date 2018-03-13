@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="oncology-HER2AntibodyIHCCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI HER2AntibodyIHCCS CodeSystem</b></p>
+<p>Antibodies relevant to HER2 receptor (IHC Test).</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/cs/HER2AntibodyIHCCS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.HER2AntibodyIHCCS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI HER2AntibodyIHCCS CodeSystem"/>
+  <title value="BCI HER2AntibodyIHCCS CodeSystem"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="Antibodies relevant to HER2 receptor (IHC Test)."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="4B5"/>
+    <display value="4B5 - CAP#31117"/>
+    <definition value="4B5 - CAP#31117"/>
+  </concept>
+  <concept>
+    <code value="Hercep"/>
+    <display value="HercepTest - CAP#31118"/>
+    <definition value="HercepTest - CAP#31118"/>
+  </concept>
+  <concept>
+    <code value="A0485"/>
+    <display value="A0485 - CAP#31119"/>
+    <definition value="A0485 - CAP#31119"/>
+  </concept>
+  <concept>
+    <code value="SP3"/>
+    <display value="SP3 - CAP#31120"/>
+    <definition value="SP3 - CAP#31120"/>
+  </concept>
+  <concept>
+    <code value="CB11"/>
+    <display value="CB11 - CAP#31121"/>
+    <definition value="CB11 - CAP#31121"/>
+  </concept>
+</CodeSystem>

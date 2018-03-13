@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-TubuleFormationScoreVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI TubuleFormationScoreVS ValueSet</b></p>\n<p/>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/vs/TubuleFormationScoreVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "oncology.TubuleFormationScoreVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI TubuleFormationScoreVS ValueSet",
+  "title": "BCI TubuleFormationScoreVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "369778004",
+            "display": "Breast tubule formation: Majority of tumor >75% (score = 1)"
+          },
+          {
+            "code": "369779007",
+            "display": "Breast tubule formation: Moderate 10% to 75% (score = 2)"
+          },
+          {
+            "code": "369780005",
+            "display": "Breast tubule formation: Minimal <10% (score = 3)"
+          }
+        ]
+      }
+    ]
+  }
+}

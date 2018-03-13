@@ -1,0 +1,50 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-OncotypeDXRiskScoreInterpretationCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI OncotypeDXRiskScoreInterpretationCS CodeSystem</b></p>\n<p>Intepretation of OncotypeDX Recurrence Score</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/cs/OncotypeDXRiskScoreInterpretationCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/bci",
+    "value": "oncology.OncotypeDXRiskScoreInterpretationCS"
+  },
+  "version": "0.0.1",
+  "name": "BCI OncotypeDXRiskScoreInterpretationCS CodeSystem",
+  "title": "BCI OncotypeDXRiskScoreInterpretationCS CodeSystem",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Intepretation of OncotypeDX Recurrence Score",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "low_risk",
+      "display": "Recurrence Score lower than 18: The cancer has a low risk of recurrence. The benefit of chemotherapy is likely to be small and will not outweigh the risks of side effects.",
+      "definition": "Recurrence Score lower than 18: The cancer has a low risk of recurrence. The benefit of chemotherapy is likely to be small and will not outweigh the risks of side effects."
+    },
+    {
+      "code": "intermediate_risk",
+      "display": "Recurrence Score of 18 up to and including 30: The cancer has an intermediate risk of recurrence. It’s unclear whether the benefits of chemotherapy outweigh the risks of side effects.",
+      "definition": "Recurrence Score of 18 up to and including 30: The cancer has an intermediate risk of recurrence. It’s unclear whether the benefits of chemotherapy outweigh the risks of side effects."
+    },
+    {
+      "code": "high_risk",
+      "display": "Recurrence Score greater than or equal to 31: The cancer has a high risk of recurrence, and the benefits of chemotherapy are likely to be greater than the risks of side effects.",
+      "definition": "Recurrence Score greater than or equal to 31: The cancer has a high risk of recurrence, and the benefits of chemotherapy are likely to be greater than the risks of side effects."
+    }
+  ]
+}

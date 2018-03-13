@@ -1,0 +1,111 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/bci/ValueSet/oncology-BreastCancerTStageVS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "oncology-BreastCancerTStageVS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI BreastCancerTStageVS ValueSet</b></p>\n<p>Tumor category according to AJCC breast cancer staging recommendations.</p>\n</div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTStageVS"];
+  fhir:ValueSet.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/us/bci" ];
+     fhir:Identifier.value [ fhir:value "oncology.BreastCancerTStageVS" ]
+  ];
+  fhir:ValueSet.version [ fhir:value "0.0.1"];
+  fhir:ValueSet.name [ fhir:value "BCI BreastCancerTStageVS ValueSet"];
+  fhir:ValueSet.title [ fhir:value "BCI BreastCancerTStageVS ValueSet"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2018-03-12"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "The MITRE Corporation: Standard Health Record Collaborative"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://standardhealthrecord.org" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Tumor category according to AJCC breast cancer staging recommendations."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerTStageCS" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TX" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "The primary tumor cannot be evaluated." ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Tis_DCIS" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DCIS is a noninvasive cancer, but if not removed it can develop into an invasive breast cancer later. DCIS means that cancer cells have been found in breast ducts and have not spread past the layer of tissue where they began." ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Tis_Paget" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paget’s disease of the nipple is a rare form of early, noninvasive cancer that is only in the skin cells of the nipple. Sometimes Paget’s disease is associated with another, invasive breast cancer. If there is also an invasive breast cancer present, it is classified according to the stage of the invasive tumor." ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T1" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "The invasive part of the tumor in the breast is 20 millimeters (mm) or smaller in size at its widest area. This stage is then broken into 3 substages (a, b, c) depending on the size of the tumor" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T1mi" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "T1mi is a tumor less than or equal  to 1 mm in greatest dimension." ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T1a" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "T1a is a tumor that is larger than 1 mm, but 5 mm or smaller." ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T1b" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "T1b is a tumor that is larger than 5 mm, but 10 mm or smaller." ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T1c" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "T1c is a tumor that is larger than 10 mm, but 20 mm or smaller." ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T2" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "The invasive part of the tumor is larger than 20 mm but not larger than 50 mm." ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T3" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "The invasive part of the tumor is larger than 50 mm." ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T4" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "The tumor has grown into the chest wall and/or the skin, or is inflammatory." ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T4a" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "T4a means the tumor has grown into the chest wall." ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T4b" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "T4b is when the tumor has grown into the skin." ]
+       ], [
+         fhir:index 13;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T4c" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "T4c is cancer that has grown into the chest wall and the skin." ]
+       ], [
+         fhir:index 14;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T4d" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "T4d is inflammatory breast cancer." ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/bci/ValueSet/oncology-BreastCancerTStageVS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://hl7.org/fhir/STU3/us/bci/ValueSet/oncology-BreastCancerTStageVS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-BreastCancerMStageVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI BreastCancerMStageVS ValueSet</b></p>\n<p>Metastasis category according to AJCC breast cancer staging recommendations.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerMStageVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "oncology.BreastCancerMStageVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI BreastCancerMStageVS ValueSet",
+  "title": "BCI BreastCancerMStageVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Metastasis category according to AJCC breast cancer staging recommendations.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerMStageCS",
+        "concept": [
+          {
+            "code": "MX",
+            "display": "Distant spread (metastasis) cannot be assessed."
+          },
+          {
+            "code": "M0",
+            "display": "No detectable metastatis by clinical or radiogical examination."
+          },
+          {
+            "code": "M1",
+            "display": "Cancer has spread to distant organs (most often to the bones, lungs, brain, or liver)."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-StainingIntensityVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI StainingIntensityVS ValueSet</b></p>
+<p>Part of the Allred scoring, based on the intensity of that staining, on a scale of 0 (Negative) to 3 (Strong).</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/StainingIntensityVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.StainingIntensityVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI StainingIntensityVS ValueSet"/>
+  <title value="BCI StainingIntensityVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="Part of the Allred scoring, based on the intensity of that staining, on a scale of 0 (Negative) to 3 (Strong)."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/bci/oncology/cs/StainingIntensityCS"/>
+      <concept>
+        <code value="none"/>
+        <display value="None/Negative - CAP#29915"/>
+      </concept>
+      <concept>
+        <code value="weak"/>
+        <display value="Weak - CAP#29811"/>
+      </concept>
+      <concept>
+        <code value="moderate"/>
+        <display value="Moderate - CAP#29812"/>
+      </concept>
+      <concept>
+        <code value="strong"/>
+        <display value="Strong - CAP#29914"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

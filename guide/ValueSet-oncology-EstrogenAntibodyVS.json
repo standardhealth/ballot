@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-EstrogenAntibodyVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI EstrogenAntibodyVS ValueSet</b></p>\n<p>Antibodies relevant to Estrogen receptor.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/vs/EstrogenAntibodyVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "oncology.EstrogenAntibodyVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI EstrogenAntibodyVS ValueSet",
+  "title": "BCI EstrogenAntibodyVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Antibodies relevant to Estrogen receptor.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/bci/oncology/cs/EstrogenAntibodyCS",
+        "concept": [
+          {
+            "code": "SP1",
+            "display": "SP1 - CAP#31093"
+          },
+          {
+            "code": "6F11",
+            "display": "6F11 - CAP#31094"
+          },
+          {
+            "code": "1D5",
+            "display": "1D5 - CAP#31095"
+          }
+        ]
+      }
+    ]
+  }
+}

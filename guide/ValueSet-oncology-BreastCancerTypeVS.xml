@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-BreastCancerTypeVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI BreastCancerTypeVS ValueSet</b></p>
+<p>Histologic types of breast cancer.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerTypeVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.BreastCancerTypeVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI BreastCancerTypeVS ValueSet"/>
+  <title value="BCI BreastCancerTypeVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="Histologic types of breast cancer."/>
+  <compose>
+    <include>
+      <system value="https://seer.cancer.gov/icd-o-3/"/>
+      <concept>
+        <code value="8000"/>
+        <display value="Neoplasm, malignant"/>
+      </concept>
+      <concept>
+        <code value="8010"/>
+        <display value="Carcinoma, NOS"/>
+      </concept>
+      <concept>
+        <code value="8032"/>
+        <display value="Spindle cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8035"/>
+        <display value="Carcinoma with osteoclast-like stromal giant cells"/>
+      </concept>
+      <concept>
+        <code value="8041"/>
+        <display value="Neuroendocrine carcinoma, poorly differentiated (small cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8070"/>
+        <display value="Squamous cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8140"/>
+        <display value="Adenocarcinoma, NOS"/>
+      </concept>
+      <concept>
+        <code value="8200"/>
+        <display value="Adenoid cystic carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8201"/>
+        <display value="Cribriform carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8211"/>
+        <display value="Tubular carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8246"/>
+        <display value="Neuroendocrine tumor, well-differentiated"/>
+      </concept>
+      <concept>
+        <code value="8255"/>
+        <display value="Adenocarcinoma with mixed subtypes"/>
+      </concept>
+      <concept>
+        <code value="8290"/>
+        <display value="Oncocytic carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8314"/>
+        <display value="Lipid-rich carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8315"/>
+        <display value="Glycogen-rich clear cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8401"/>
+        <display value="Apocrine adenocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="8410"/>
+        <display value="Sebaceous carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8430"/>
+        <display value="Mucoepidermoid carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8480"/>
+        <display value="Mucinous carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8500"/>
+        <display value="Ductal carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8501"/>
+        <display value="Comedocarcinoma, NOS"/>
+      </concept>
+      <concept>
+        <code value="8502"/>
+        <display value="Secretory carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8503"/>
+        <display value="Intraductal papillary carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8504"/>
+        <display value="Encapsulated papillary carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8507"/>
+        <display value="Invasive micropapillary carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8509"/>
+        <display value="Solid papillary carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8510"/>
+        <display value="Medullary carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8513"/>
+        <display value="Atypical medullary carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8520"/>
+        <display value="Invasive lobular carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8521"/>
+        <display value="Infiltrating ductular carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8522"/>
+        <display value="Infiltrating duct and lobular carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8523"/>
+        <display value="Infiltrating duct mixed with other types of carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8524"/>
+        <display value="Infiltrating lobular mixed with other types of carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8525"/>
+        <display value="Polymorphous carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8530"/>
+        <display value="Inflammatory carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8540"/>
+        <display value="Paget disease of the nipple"/>
+      </concept>
+      <concept>
+        <code value="8541"/>
+        <display value="Paget disease and infiltrating duct carcinoma of breast"/>
+      </concept>
+      <concept>
+        <code value="8543"/>
+        <display value="Paget disease and intraductal carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8570"/>
+        <display value="Low-grade adenosquamous carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8571"/>
+        <display value="Metaplastic carcinoma with mesenchymal differentiation"/>
+      </concept>
+      <concept>
+        <code value="8572"/>
+        <display value="Fibromatosis-like metaplastic carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8574"/>
+        <display value="Carcinoma with neuroendocrine differentiation"/>
+      </concept>
+      <concept>
+        <code value="8575"/>
+        <display value="Metaplastic carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8982"/>
+        <display value="Myoepithelial carcinoma"/>
+      </concept>
+      <concept>
+        <code value="8983"/>
+        <display value="Adenomyoepithelioma with carcinoma"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

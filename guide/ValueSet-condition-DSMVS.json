@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "id": "condition-DSMVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI DSMVS ValueSet</b></p>\n<p/>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/condition/vs/DSMVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "condition.DSMVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI DSMVS ValueSet",
+  "title": "BCI DSMVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.dsm5.org/"
+      }
+    ]
+  }
+}

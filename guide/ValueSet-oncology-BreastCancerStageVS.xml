@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-BreastCancerStageVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI BreastCancerStageVS ValueSet</b></p>
+<p>The AJCC stage group.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/BreastCancerStageVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.BreastCancerStageVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI BreastCancerStageVS ValueSet"/>
+  <title value="BCI BreastCancerStageVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="The AJCC stage group."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerStageCS"/>
+      <concept>
+        <code value="0"/>
+        <display value="AJCC Stage 0"/>
+      </concept>
+      <concept>
+        <code value="IA"/>
+        <display value="AJCC Stage IA"/>
+      </concept>
+      <concept>
+        <code value="IB"/>
+        <display value="AJCC Stage IB"/>
+      </concept>
+      <concept>
+        <code value="IIA"/>
+        <display value="AJCC Stage IIA"/>
+      </concept>
+      <concept>
+        <code value="IIB"/>
+        <display value="AJCC Stage IIB"/>
+      </concept>
+      <concept>
+        <code value="IIIA"/>
+        <display value="AJCC Stage IIIA"/>
+      </concept>
+      <concept>
+        <code value="IIIB"/>
+        <display value="AJCC Stage IIIB"/>
+      </concept>
+      <concept>
+        <code value="IIIC"/>
+        <display value="AJCC Stage IIIC"/>
+      </concept>
+      <concept>
+        <code value="IV"/>
+        <display value="AJCC Stage IV"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

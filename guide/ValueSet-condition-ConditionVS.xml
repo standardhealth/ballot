@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="condition-ConditionVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI ConditionVS ValueSet</b></p>
+<p/>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/condition/vs/ConditionVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="condition.ConditionVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI ConditionVS ValueSet"/>
+  <title value="BCI ConditionVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="64572001"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

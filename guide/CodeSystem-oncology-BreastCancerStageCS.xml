@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="oncology-BreastCancerStageCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI BreastCancerStageCS CodeSystem</b></p>
+<p>The AJCC stage group.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerStageCS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.BreastCancerStageCS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI BreastCancerStageCS CodeSystem"/>
+  <title value="BCI BreastCancerStageCS CodeSystem"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="The AJCC stage group."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="0"/>
+    <display value="AJCC Stage 0"/>
+    <definition value="AJCC Stage 0"/>
+  </concept>
+  <concept>
+    <code value="IA"/>
+    <display value="AJCC Stage IA"/>
+    <definition value="AJCC Stage IA"/>
+  </concept>
+  <concept>
+    <code value="IB"/>
+    <display value="AJCC Stage IB"/>
+    <definition value="AJCC Stage IB"/>
+  </concept>
+  <concept>
+    <code value="IIA"/>
+    <display value="AJCC Stage IIA"/>
+    <definition value="AJCC Stage IIA"/>
+  </concept>
+  <concept>
+    <code value="IIB"/>
+    <display value="AJCC Stage IIB"/>
+    <definition value="AJCC Stage IIB"/>
+  </concept>
+  <concept>
+    <code value="IIIA"/>
+    <display value="AJCC Stage IIIA"/>
+    <definition value="AJCC Stage IIIA"/>
+  </concept>
+  <concept>
+    <code value="IIIB"/>
+    <display value="AJCC Stage IIIB"/>
+    <definition value="AJCC Stage IIIB"/>
+  </concept>
+  <concept>
+    <code value="IIIC"/>
+    <display value="AJCC Stage IIIC"/>
+    <definition value="AJCC Stage IIIC"/>
+  </concept>
+  <concept>
+    <code value="IV"/>
+    <display value="AJCC Stage IV"/>
+    <definition value="AJCC Stage IV"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-GeneIdentifierVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI GeneIdentifierVS ValueSet</b></p>
+<p>A unique code for a gene, including protein coding genes, ncRNA genes and pseudogenes, to allow unambiguous communication, drawn from HUGO Gene Nomenclature Committee.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/GeneIdentifierVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.GeneIdentifierVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI GeneIdentifierVS ValueSet"/>
+  <title value="BCI GeneIdentifierVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="A unique code for a gene, including protein coding genes, ncRNA genes and pseudogenes, to allow unambiguous communication, drawn from HUGO Gene Nomenclature Committee."/>
+  <compose>
+    <include>
+      <system value="http://www.genenames.org"/>
+    </include>
+  </compose>
+</ValueSet>

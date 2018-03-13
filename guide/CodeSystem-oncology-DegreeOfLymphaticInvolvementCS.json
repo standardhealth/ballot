@@ -1,0 +1,49 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-DegreeOfLymphaticInvolvementCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI DegreeOfLymphaticInvolvementCS CodeSystem</b></p>\n<p/>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/cs/DegreeOfLymphaticInvolvementCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/bci",
+    "value": "oncology.DegreeOfLymphaticInvolvementCS"
+  },
+  "version": "0.0.1",
+  "name": "BCI DegreeOfLymphaticInvolvementCS CodeSystem",
+  "title": "BCI DegreeOfLymphaticInvolvementCS CodeSystem",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "microscopic",
+      "display": "Only a few cancer cells are in the node.",
+      "definition": "Only a few cancer cells are in the node."
+    },
+    {
+      "code": "gross",
+      "display": "The cancer can be seen or felt without aid of microscopy.",
+      "definition": "The cancer can be seen or felt without aid of microscopy."
+    },
+    {
+      "code": "extracapsular",
+      "display": "Cancer has pread outside the wall of the node.",
+      "definition": "Cancer has pread outside the wall of the node."
+    }
+  ]
+}

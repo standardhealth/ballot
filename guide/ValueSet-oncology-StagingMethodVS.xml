@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-StagingMethodVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI StagingMethodVS ValueSet</b></p>
+<p>The methodology or standard used to do the staging.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/StagingMethodVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.StagingMethodVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI StagingMethodVS ValueSet"/>
+  <title value="BCI StagingMethodVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="The methodology or standard used to do the staging."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/bci/oncology/cs/StagingMethodCS"/>
+      <concept>
+        <code value="ajcc_v7"/>
+        <display value="AJCC Breast Carcinoma Version 7"/>
+      </concept>
+      <concept>
+        <code value="ajcc_v8"/>
+        <display value="AJCC Breast Carcinoma Version 8"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

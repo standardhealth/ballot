@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-NuclearPleomorphismScoreVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI NuclearPleomorphismScoreVS ValueSet</b></p>\n<p/>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/vs/NuclearPleomorphismScoreVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "oncology.NuclearPleomorphismScoreVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI NuclearPleomorphismScoreVS ValueSet",
+  "title": "BCI NuclearPleomorphismScoreVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "384735004",
+            "display": "Nuclear pleomorphism: small regular nuclei (score=1)"
+          },
+          {
+            "code": "384737007",
+            "display": "Nuclear pleomorphism: moderate increase in size, etc (score = 2)"
+          },
+          {
+            "code": "384738002",
+            "display": "Nuclear pleomorphism: marked variation in size, nucleoli, chromatin clumping, etc (score = 3)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="oncology-BreastCancerTStageCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI BreastCancerTStageCS CodeSystem</b></p>
+<p>Tumor category according to AJCC breast cancer staging recommendations.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/cs/BreastCancerTStageCS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.BreastCancerTStageCS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI BreastCancerTStageCS CodeSystem"/>
+  <title value="BCI BreastCancerTStageCS CodeSystem"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="Tumor category according to AJCC breast cancer staging recommendations."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="15"/>
+  <concept>
+    <code value="TX"/>
+    <display value="The primary tumor cannot be evaluated."/>
+    <definition value="The primary tumor cannot be evaluated."/>
+  </concept>
+  <concept>
+    <code value="Tis_DCIS"/>
+    <display value="DCIS is a noninvasive cancer, but if not removed it can develop into an invasive breast cancer later. DCIS means that cancer cells have been found in breast ducts and have not spread past the layer of tissue where they began."/>
+    <definition value="DCIS is a noninvasive cancer, but if not removed it can develop into an invasive breast cancer later. DCIS means that cancer cells have been found in breast ducts and have not spread past the layer of tissue where they began."/>
+  </concept>
+  <concept>
+    <code value="Tis_Paget"/>
+    <display value="Paget&#x2019;s disease of the nipple is a rare form of early, noninvasive cancer that is only in the skin cells of the nipple. Sometimes Paget&#x2019;s disease is associated with another, invasive breast cancer. If there is also an invasive breast cancer present, it is classified according to the stage of the invasive tumor."/>
+    <definition value="Paget&#x2019;s disease of the nipple is a rare form of early, noninvasive cancer that is only in the skin cells of the nipple. Sometimes Paget&#x2019;s disease is associated with another, invasive breast cancer. If there is also an invasive breast cancer present, it is classified according to the stage of the invasive tumor."/>
+  </concept>
+  <concept>
+    <code value="T1"/>
+    <display value="The invasive part of the tumor in the breast is 20 millimeters (mm) or smaller in size at its widest area. This stage is then broken into 3 substages (a, b, c) depending on the size of the tumor"/>
+    <definition value="The invasive part of the tumor in the breast is 20 millimeters (mm) or smaller in size at its widest area. This stage is then broken into 3 substages (a, b, c) depending on the size of the tumor"/>
+  </concept>
+  <concept>
+    <code value="T1mi"/>
+    <display value="T1mi is a tumor less than or equal  to 1 mm in greatest dimension."/>
+    <definition value="T1mi is a tumor less than or equal  to 1 mm in greatest dimension."/>
+  </concept>
+  <concept>
+    <code value="T1a"/>
+    <display value="T1a is a tumor that is larger than 1 mm, but 5 mm or smaller."/>
+    <definition value="T1a is a tumor that is larger than 1 mm, but 5 mm or smaller."/>
+  </concept>
+  <concept>
+    <code value="T1b"/>
+    <display value="T1b is a tumor that is larger than 5 mm, but 10 mm or smaller."/>
+    <definition value="T1b is a tumor that is larger than 5 mm, but 10 mm or smaller."/>
+  </concept>
+  <concept>
+    <code value="T1c"/>
+    <display value="T1c is a tumor that is larger than 10 mm, but 20 mm or smaller."/>
+    <definition value="T1c is a tumor that is larger than 10 mm, but 20 mm or smaller."/>
+  </concept>
+  <concept>
+    <code value="T2"/>
+    <display value="The invasive part of the tumor is larger than 20 mm but not larger than 50 mm."/>
+    <definition value="The invasive part of the tumor is larger than 20 mm but not larger than 50 mm."/>
+  </concept>
+  <concept>
+    <code value="T3"/>
+    <display value="The invasive part of the tumor is larger than 50 mm."/>
+    <definition value="The invasive part of the tumor is larger than 50 mm."/>
+  </concept>
+  <concept>
+    <code value="T4"/>
+    <display value="The tumor has grown into the chest wall and/or the skin, or is inflammatory."/>
+    <definition value="The tumor has grown into the chest wall and/or the skin, or is inflammatory."/>
+  </concept>
+  <concept>
+    <code value="T4a"/>
+    <display value="T4a means the tumor has grown into the chest wall."/>
+    <definition value="T4a means the tumor has grown into the chest wall."/>
+  </concept>
+  <concept>
+    <code value="T4b"/>
+    <display value="T4b is when the tumor has grown into the skin."/>
+    <definition value="T4b is when the tumor has grown into the skin."/>
+  </concept>
+  <concept>
+    <code value="T4c"/>
+    <display value="T4c is cancer that has grown into the chest wall and the skin."/>
+    <definition value="T4c is cancer that has grown into the chest wall and the skin."/>
+  </concept>
+  <concept>
+    <code value="T4d"/>
+    <display value="T4d is inflammatory breast cancer."/>
+    <definition value="T4d is inflammatory breast cancer."/>
+  </concept>
+</CodeSystem>

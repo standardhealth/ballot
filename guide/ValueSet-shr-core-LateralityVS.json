@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "id": "shr-core-LateralityVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI LateralityVS ValueSet</b></p>\n<p>Anatomical location or specimen further detailing the side(s) of interest.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/shr/core/vs/LateralityVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "shr.core.LateralityVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI LateralityVS ValueSet",
+  "title": "BCI LateralityVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Anatomical location or specimen further detailing the side(s) of interest.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://evs.nci.nih.gov/ftp1/CDISC/SDTM/",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "C99073"
+          }
+        ]
+      }
+    ]
+  }
+}

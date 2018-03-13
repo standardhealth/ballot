@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-TumorMarginDescriptionVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI TumorMarginDescriptionVS ValueSet</b></p>
+<p/>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/TumorMarginDescriptionVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.TumorMarginDescriptionVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI TumorMarginDescriptionVS ValueSet"/>
+  <title value="BCI TumorMarginDescriptionVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="129738007"/>
+        <display value="Lesion with circumscribed margin"/>
+      </concept>
+      <concept>
+        <code value="129741003"/>
+        <display value="Lesion with indistinct margin"/>
+      </concept>
+      <concept>
+        <code value="129739004"/>
+        <display value="Lesion with microlobulated margin"/>
+      </concept>
+      <concept>
+        <code value="129740002"/>
+        <display value="Lesion with obscured margin"/>
+      </concept>
+      <concept>
+        <code value="129742005"/>
+        <display value="Lesion with spiculated margin"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

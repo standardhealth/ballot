@@ -1,0 +1,44 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-HER2ISHMethodCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI HER2ISHMethodCS CodeSystem</b></p>\n<p/>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/cs/HER2ISHMethodCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/bci",
+    "value": "oncology.HER2ISHMethodCS"
+  },
+  "version": "0.0.1",
+  "name": "BCI HER2ISHMethodCS CodeSystem",
+  "title": "BCI HER2ISHMethodCS CodeSystem",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "single",
+      "display": "HER2 by Single Probe Assay In SituHybridization test",
+      "definition": "HER2 by Single Probe Assay In SituHybridization test"
+    },
+    {
+      "code": "dual",
+      "display": "HER2 by Dual Probe Assay In SituHybridization test",
+      "definition": "HER2 by Dual Probe Assay In SituHybridization test"
+    }
+  ]
+}

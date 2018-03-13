@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-ReceptorVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI ReceptorVS ValueSet</b></p>
+<p/>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/ReceptorVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.ReceptorVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI ReceptorVS ValueSet"/>
+  <title value="BCI ReceptorVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="116647005"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

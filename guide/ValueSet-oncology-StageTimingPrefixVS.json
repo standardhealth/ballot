@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-StageTimingPrefixVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI StageTimingPrefixVS ValueSet</b></p>\n<p>When staging was done, relative to treatment events.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/vs/StageTimingPrefixVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "oncology.StageTimingPrefixVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI StageTimingPrefixVS ValueSet",
+  "title": "BCI StageTimingPrefixVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "When staging was done, relative to treatment events.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/bci/oncology/cs/StageTimingPrefixCS",
+        "concept": [
+          {
+            "code": "c",
+            "display": "Clinical staging, upon initial diagnosis"
+          },
+          {
+            "code": "p",
+            "display": "Pathologic staging, post-operative, after resection surgery"
+          },
+          {
+            "code": "yc",
+            "display": "Post-neoadjuvant clinical stage timing"
+          },
+          {
+            "code": "yp",
+            "display": "Post-neoadjuvant pathologic stage timing"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-StainingControlVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI StainingControlVS ValueSet</b></p>
+<p>Staining of control cells, required if staining is negative.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/StainingControlVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.StainingControlVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI StainingControlVS ValueSet"/>
+  <title value="BCI StainingControlVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="Staining of control cells, required if staining is negative."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/bci/oncology/cs/StainingControlCS"/>
+      <concept>
+        <code value="staining"/>
+        <display value="Internal control cells present and stain as expected - CAP#25896"/>
+      </concept>
+      <concept>
+        <code value="nonstaining"/>
+        <display value="Internal control cells present; no immunoreactivity of either tumor cells or internal controls - CAP#32089"/>
+      </concept>
+      <concept>
+        <code value="absent"/>
+        <display value="Internal control cells absent. - CAP#25898"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

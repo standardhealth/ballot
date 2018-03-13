@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-StageTimingPrefixVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI StageTimingPrefixVS ValueSet</b></p>
+<p>When staging was done, relative to treatment events.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/StageTimingPrefixVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.StageTimingPrefixVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI StageTimingPrefixVS ValueSet"/>
+  <title value="BCI StageTimingPrefixVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="When staging was done, relative to treatment events."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/bci/oncology/cs/StageTimingPrefixCS"/>
+      <concept>
+        <code value="c"/>
+        <display value="Clinical staging, upon initial diagnosis"/>
+      </concept>
+      <concept>
+        <code value="p"/>
+        <display value="Pathologic staging, post-operative, after resection surgery"/>
+      </concept>
+      <concept>
+        <code value="yc"/>
+        <display value="Post-neoadjuvant clinical stage timing"/>
+      </concept>
+      <concept>
+        <code value="yp"/>
+        <display value="Post-neoadjuvant pathologic stage timing"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

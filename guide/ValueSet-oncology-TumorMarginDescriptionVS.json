@@ -1,0 +1,60 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-TumorMarginDescriptionVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI TumorMarginDescriptionVS ValueSet</b></p>\n<p/>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/vs/TumorMarginDescriptionVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/bci",
+      "value": "oncology.TumorMarginDescriptionVS"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "BCI TumorMarginDescriptionVS ValueSet",
+  "title": "BCI TumorMarginDescriptionVS ValueSet",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "129738007",
+            "display": "Lesion with circumscribed margin"
+          },
+          {
+            "code": "129741003",
+            "display": "Lesion with indistinct margin"
+          },
+          {
+            "code": "129739004",
+            "display": "Lesion with microlobulated margin"
+          },
+          {
+            "code": "129740002",
+            "display": "Lesion with obscured margin"
+          },
+          {
+            "code": "129742005",
+            "display": "Lesion with spiculated margin"
+          }
+        ]
+      }
+    ]
+  }
+}

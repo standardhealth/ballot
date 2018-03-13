@@ -1,0 +1,60 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-HER2AntibodyIHCCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI HER2AntibodyIHCCS CodeSystem</b></p>\n<p>Antibodies relevant to HER2 receptor (IHC Test).</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/cs/HER2AntibodyIHCCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/bci",
+    "value": "oncology.HER2AntibodyIHCCS"
+  },
+  "version": "0.0.1",
+  "name": "BCI HER2AntibodyIHCCS CodeSystem",
+  "title": "BCI HER2AntibodyIHCCS CodeSystem",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Antibodies relevant to HER2 receptor (IHC Test).",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "4B5",
+      "display": "4B5 - CAP#31117",
+      "definition": "4B5 - CAP#31117"
+    },
+    {
+      "code": "Hercep",
+      "display": "HercepTest - CAP#31118",
+      "definition": "HercepTest - CAP#31118"
+    },
+    {
+      "code": "A0485",
+      "display": "A0485 - CAP#31119",
+      "definition": "A0485 - CAP#31119"
+    },
+    {
+      "code": "SP3",
+      "display": "SP3 - CAP#31120",
+      "definition": "SP3 - CAP#31120"
+    },
+    {
+      "code": "CB11",
+      "display": "CB11 - CAP#31121",
+      "definition": "CB11 - CAP#31121"
+    }
+  ]
+}

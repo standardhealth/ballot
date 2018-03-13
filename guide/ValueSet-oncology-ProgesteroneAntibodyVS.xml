@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="oncology-ProgesteroneAntibodyVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+<p><b>BCI ProgesteroneAntibodyVS ValueSet</b></p>
+<p>Antibodies relevant to Estrogen receptor.</p>
+</div>
+  </text>
+  <url value="http://hl7.org/fhir/us/bci/oncology/vs/ProgesteroneAntibodyVS"/>
+  <identifier>
+    <system value="http://hl7.org/fhir/us/bci"/>
+    <value value="oncology.ProgesteroneAntibodyVS"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="BCI ProgesteroneAntibodyVS ValueSet"/>
+  <title value="BCI ProgesteroneAntibodyVS ValueSet"/>
+  <status value="draft"/>
+  <date value="2018-03-12"/>
+  <publisher value="The MITRE Corporation: Standard Health Record Collaborative"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://standardhealthrecord.org"/>
+    </telecom>
+  </contact>
+  <description value="Antibodies relevant to Estrogen receptor."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/bci/oncology/cs/ProgesteroneAntibodyCS"/>
+      <concept>
+        <code value="1E2"/>
+        <display value="1E2 - CAP#31103"/>
+      </concept>
+      <concept>
+        <code value="636"/>
+        <display value="636 - CAP#31104"/>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="16 - CAP#31105"/>
+      </concept>
+      <concept>
+        <code value="SP2"/>
+        <display value="SP2 - CAP#31097"/>
+      </concept>
+      <concept>
+        <code value="1A6"/>
+        <display value="1A6 - CAP#31098"/>
+      </concept>
+      <concept>
+        <code value="1294"/>
+        <display value="1294 - CAP#32115"/>
+      </concept>
+      <concept>
+        <code value="312"/>
+        <display value="312 - CAP#32116"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,55 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-StainingIntensityCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI StainingIntensityCS CodeSystem</b></p>\n<p>Part of the Allred scoring, based on the intensity of that staining, on a scale of 0 (Negative) to 3 (Strong).</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/bci/oncology/cs/StainingIntensityCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/bci",
+    "value": "oncology.StainingIntensityCS"
+  },
+  "version": "0.0.1",
+  "name": "BCI StainingIntensityCS CodeSystem",
+  "title": "BCI StainingIntensityCS CodeSystem",
+  "status": "draft",
+  "date": "2018-03-12",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Part of the Allred scoring, based on the intensity of that staining, on a scale of 0 (Negative) to 3 (Strong).",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "none",
+      "display": "None/Negative - CAP#29915",
+      "definition": "None/Negative - CAP#29915"
+    },
+    {
+      "code": "weak",
+      "display": "Weak - CAP#29811",
+      "definition": "Weak - CAP#29811"
+    },
+    {
+      "code": "moderate",
+      "display": "Moderate - CAP#29812",
+      "definition": "Moderate - CAP#29812"
+    },
+    {
+      "code": "strong",
+      "display": "Strong - CAP#29914",
+      "definition": "Strong - CAP#29914"
+    }
+  ]
+}

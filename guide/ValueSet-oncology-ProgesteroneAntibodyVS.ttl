@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/bci/ValueSet/oncology-ProgesteroneAntibodyVS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "oncology-ProgesteroneAntibodyVS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BCI ProgesteroneAntibodyVS ValueSet</b></p>\n<p>Antibodies relevant to Estrogen receptor.</p>\n</div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/bci/oncology/vs/ProgesteroneAntibodyVS"];
+  fhir:ValueSet.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/us/bci" ];
+     fhir:Identifier.value [ fhir:value "oncology.ProgesteroneAntibodyVS" ]
+  ];
+  fhir:ValueSet.version [ fhir:value "0.0.1"];
+  fhir:ValueSet.name [ fhir:value "BCI ProgesteroneAntibodyVS ValueSet"];
+  fhir:ValueSet.title [ fhir:value "BCI ProgesteroneAntibodyVS ValueSet"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2018-03-12"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "The MITRE Corporation: Standard Health Record Collaborative"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://standardhealthrecord.org" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Antibodies relevant to Estrogen receptor."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/us/bci/oncology/cs/ProgesteroneAntibodyCS" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1E2" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "1E2 - CAP#31103" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "636" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "636 - CAP#31104" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "16" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "16 - CAP#31105" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SP2" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SP2 - CAP#31097" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1A6" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "1A6 - CAP#31098" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1294" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "1294 - CAP#32115" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "312" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "312 - CAP#32116" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/bci/ValueSet/oncology-ProgesteroneAntibodyVS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://hl7.org/fhir/STU3/us/bci/ValueSet/oncology-ProgesteroneAntibodyVS.ttl> .
+
+# -------------------------------------------------------------------------------------
+
